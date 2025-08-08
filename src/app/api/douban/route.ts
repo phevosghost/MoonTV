@@ -47,6 +47,7 @@ async function fetchDoubanData(url: string): Promise<DoubanApiResponse> {
 export const runtime = 'edge';
 export const preferredRegion = ['hkg1'];
 
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
 

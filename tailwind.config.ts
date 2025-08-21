@@ -10,6 +10,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      minHeight: {
+        'dvh': '100dvh', // 支持 min-h-dvh
+      },
+      height: {
+        'dvh': '100dvh', // 支持 h-dvh
+      },
+      maxHeight: {
+        'dvh': '100dvh', // 支持 max-h-dvh
+      },
       screens: {
         'mobile-landscape': {
           raw: '(orientation: landscape) and (max-height: 700px)',
